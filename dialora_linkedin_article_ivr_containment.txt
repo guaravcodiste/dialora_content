@@ -1,0 +1,53 @@
+IVR Containment in 2026: Why Most Phone Menus Never Get Past 30%
+
+𝗣𝗿𝗲𝘀𝘀 𝟭 𝗳𝗼𝗿 𝗯𝗶𝗹𝗹𝗶𝗻𝗴 𝗲𝘅𝗶𝘀𝘁𝘀 𝗯𝗲𝗰𝗮𝘂𝘀𝗲 𝗮 𝟭𝟵𝟲𝟬𝘀 𝘁𝗲𝗹𝗲𝗽𝗵𝗼𝗻𝗲 𝗰𝗼𝘂𝗹𝗱 𝗼𝗻𝗹𝘆 𝘀𝗲𝗻𝗱 𝘁𝘄𝗲𝗹𝘃𝗲 𝘁𝗼𝗻𝗲𝘀.
+
+That is the whole story of the business phone menu. The keypad had twelve buttons and nothing else, so the menu was built to route around that limit. Six decades later the keypad constraint is gone. Most menus still work exactly the same way.
+
+**The ceiling is architectural, not a tuning problem**
+
+Containment is the share of calls a system resolves with zero agent involvement, and the published numbers for routing-only IVRs are consistently weak:
+
+- Routing-only menus typically land at 20% to 40%.
+- A McKinsey survey of contact center operators found seven in ten companies sitting at 30% or below.
+- Conversational AI systems reach 60% to 85% on defined intents.
+
+That gap will not close with better prompts or a smarter tree. A menu was designed to route, not resolve. It cannot pull a record, take a payment, or complete a multi-step task, so a better router is still just a router. If your IVR sits near 30% today, the fix is not a redesign of the menu, it is a different architecture underneath it.
+
+**What callers do when the menu does not fit**
+
+They leave, mostly without telling you. A Vonage survey of over 2,000 US adults found 61% believe IVR damages the customer experience, against 13% who call it good. The top complaints: forced through irrelevant options (63%) and blocked from reaching a person (54%). 85% said they had abandoned a call because of an IVR, and callers estimated abandoning roughly 27% of the calls they place to businesses.
+
+A separate NYU study found 83% of consumers believe IVRs offer them no benefit at all, or exist purely to cut company costs. About 70% would rather speak to a person than work through a complex menu. Healthy call abandonment sits between 2% and 5%. If yours runs well above that, the menu is usually why.
+
+- The cheapest diagnostic you are probably not tracking: opt-out rate, the share of callers who press zero or ask for an agent immediately. A high number means callers have already decided the system cannot help them.
+
+**The economics nobody puts in the demo**
+
+Voice costs $9 to $16 per contact. A contained self-service resolution costs $0.10 to $0.60. A 5% to 20% gain in containment cuts total costs 10% to 30%. That is the real business case for moving off a routing-only menu, and it holds regardless of category or vendor.
+
+**Five questions that eliminate most vendors fast**
+
+- Does it resolve or only route? Ask for containment measured on completed tasks, not calls that simply entered the system.
+- Can a caller reach a person in one sentence? If the escape hatch requires working through a menu first, you have rebuilt the same frustration.
+- What happens to context at handoff? The agent should get the intent, the path taken, and any data already collected.
+- Can your team change a flow without a consultant? Enterprise platforms often need professional services for edits a visual builder should handle in an hour.
+- Is pricing published? Unpublished pricing is normal at enterprise tier and a real planning problem below it.
+
+**Where AI voice agents fit**
+
+Nineteen systems across five categories answer these questions differently. They are not competing with each other so much as sitting at different points on the route-versus-resolve spectrum:
+
+- AI voice agents built to resolve, not route: Dialora, Bland AI, Retell AI, Vapi. Highest containment potential, and the result depends heavily on how well the backend is integrated.
+- Enterprise CX suites: Genesys Cloud CX, NICE CXone, Five9, Talkdesk, Cisco Webex Contact Center. Deep reporting and workforce management, best above roughly 100 agents, usually with longer rollouts and unpublished pricing.
+- SMB cloud call centers and CPaaS: CloudTalk, Aircall, Twilio, Amazon Connect. Visual flow builders for 10 to 50 seat teams, or full programmable control for engineering teams willing to own the build.
+
+Pick the category first, based on call volume and intent complexity, then compare inside it.
+
+The decision in front of most teams is simpler than a long vendor list makes it look: decide whether you need something that routes, or something that resolves. No amount of menu redesign closes that gap, because the ceiling was built into the architecture, not the configuration.
+
+Dialora builds AI voice agents that answer every call the moment it arrives, resolve repetitive intents end to end, and hand a caller to a person the moment they ask.
+
+👉 Try Dialora for free: https://www.dialora.ai/signup
+
+📖 Read the full blog to know more: {{BLOG_URL}}
